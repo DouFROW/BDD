@@ -31,6 +31,11 @@ values ('9559120236','Luisa','Alcivar','lui@gmail.com','05/08/2010')
 insert into estudiantes(cedula,nombre,apellido,email,fecha_nacimiento)
 values ('8778459865','Arturo','Alvarez','artur@gmail.com','25/08/2009')
 
+insert into estudiantes(cedula,nombre,apellido,email,fecha_nacimiento)
+values ('1778459865','Cris','Pacheco','cris@gmail.com','13/06/2013')
+
 select cedula,nombre,apellido,email from estudiantes
 
 select * from estudiantes
+
+select * from estudiantes where fecha_nacimiento is not null 

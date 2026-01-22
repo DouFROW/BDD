@@ -30,4 +30,8 @@ values('07','donkey kong')
 insert into videojuegos(codigo,nombre)
 values('08','Mortal Kombat')
 
+insert into videojuegos(codigo,nombre)
+values('09','Castlevania')
+
+
 select * from videojuegos
